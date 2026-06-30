@@ -63,11 +63,11 @@ Example:
 
 After optimization and threshold tuning:
 
-| Metric    | Score  |
-| --------- | ------ |
-| Recall    | 0.9233 |
-| Precision | 0.8784 |
-| F1 Score  | 0.9003 |
+| Metric    | Test Score  |
+| --------- | ----------  |
+| Recall    | 0.9233      |
+| Precision | 0.8784      |
+| F1 Score  | 0.9003      |
 
 ✔ Balanced high recall and precision
 ✔ Significant improvement over baseline models
@@ -76,6 +76,7 @@ After optimization and threshold tuning:
 ## 🧠 Key Insights
 
 - Accuracy is misleading for imbalanced datasets
+- Recall alone is not giving good results.
 - F1 score is more reliable for balancing precision & recall
 - Threshold tuning is critical in fraud detection systems
 - XGBoost significantly outperformed traditional models

@@ -63,7 +63,3 @@ else:
 
 
 
-# Test set recall score : 0.9233576642335767
-# Test set precision score : 0.8784722222222222
-# Test set f1 score : 0.900355871886121
-# Best threshold : 0.8999999999999996
